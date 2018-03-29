@@ -61,8 +61,22 @@ Note that this project uses `C++14` features such as `auto` and `lambdas`, and t
     cmake --build . --config Release
     ```
 
+### Building on Linux
+1. Clone the repository
+    ```
+    git clone https://github.com/Seng3694/SudokuSolver
+    ```
+
+2. Generate the build files
+    ```
+    mkdir build
+    cd build
+    cmake -G "Unix Makefiles" ../SudokuSolver
+    cmake --build . --config Release
+    ```
+
 [1]: https://codemyroad.files.wordpress.com/2014/04/output_hqxeh9.gif
 [2]: https://cdn.discordapp.com/attachments/425728769236664350/428988250414383104/unknown.png
 [3]: https://cdn.discordapp.com/attachments/425728769236664350/428989437557342208/unknown.png
 [4]: https://codemyroad.wordpress.com/2014/05/01/solving-sudoku-by-backtracking/
-[5]:http://www.cmake.org/
+[5]: http://www.cmake.org/
